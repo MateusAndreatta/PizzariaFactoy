@@ -5,4 +5,5 @@ package com.andreatta.pizzariafactory;
  */
 
 public class BordaSimples extends  Borda {
+
 }

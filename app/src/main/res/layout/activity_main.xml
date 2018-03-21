@@ -8,20 +8,18 @@
     android:orientation="vertical"
     android:padding="20dp">
 
-    <Spinner
-        android:id="@+id/spinner"
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="53dp" />
+        android:text="Moda do chefe"
+        android:onClick="FazerCasa"/>
 
     <Button
-        android:layout_marginTop="100dp"
-        android:id="@+id/button"
+        android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Fazer a pizza"
-        android:onClick="IniciarFabrica"/>
+        android:text="Moda da casa"
+        android:onClick="FazerChefe"/>
 
     <TextView
         android:id="@+id/textView"
