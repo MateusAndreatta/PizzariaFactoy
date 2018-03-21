@@ -12,14 +12,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Moda do chefe"
-        android:onClick="FazerCasa"/>
-
+        android:onClick="FazerChefe"/>
+    
     <Button
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Moda da casa"
-        android:onClick="FazerChefe"/>
+        android:onClick="FazerCasa"/>
 
     <TextView
         android:id="@+id/textView"

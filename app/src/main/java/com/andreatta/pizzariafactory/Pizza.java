@@ -5,9 +5,9 @@ package com.andreatta.pizzariafactory;
  */
 
 public class Pizza {
-    Tamanho tamanho;
-    Sabor sabor;
-    Borda borda;
+    private Tamanho tamanho;
+    private Sabor sabor;
+    private Borda borda;
 
     public void setTamanho(Tamanho tamanho) {
         this.tamanho = tamanho;

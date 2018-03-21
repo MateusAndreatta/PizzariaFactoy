@@ -9,5 +9,4 @@ public abstract class PizzaFactory {
     public abstract  Sabor definirSabor();
     public abstract Borda definirBorda();
 
-
 }
